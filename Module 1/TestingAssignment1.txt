@@ -1,0 +1,46 @@
+1) What is SDLC ?
+
+-> it is a software development life cycle 
+	Through SDLC Development team use to design and build high quality software 
+	it contains Development phases that descibes the cycle of IT Project/Software.
+	it explains the project planning,Scheduling,Budgeting,Control over development process.
+	it assures that the design and testing processes that lead to Release are Good and well Managed.
+	so, in simple words it is most effective method and most populer for project management,development,Tracking.
+	              and   it reduce the project risk,cost
+
+
+
+2) What is Software Testing ?
+
+-> it is process of manage the quality of IT. Product/Project
+	With the use of testing we evaluating Error,Bug,mistakes from the software or product.
+	it is the process of verify and validate the product
+	Testing is also provide the objective, independent view of software and better understanding of risk of software implementation.
+	Main Aim is to ensurig the High Quality product To the User or Customers.
+			And it is also for ensure great user experience to the Customers.
+
+
+3) SDLC Phases with basic introduction.
+
+->  There are 6 SDLC phases 
+	
+	Requirement Phase : 1st to develop something we must need the requirements to understand the product/software.
+				  So in this phase we gathered the Functional and Non-Functional Requirements from the users/customer.
+
+	Analysis Phase    : 2nd we need to analize all the requirements and processes.
+				  and analize how this requirement is work in the project.
+
+	Design Phase      : After analize everything we are designing the basic documents(Like SRS DOC.)
+				  in this we design the basic thngs/doc. that we understand through requirements and analization.
+
+	Implemantation    : in this phase developers starts to develop or implement something/code from the design.
+				  so this is basic implementation stage for the product.
+
+	Testing Phase     : in this stage Tester/QA. Test the product quality before release.
+				  testing phase is for find the errors bugs mistakes in software/product.
+				  this is tester checks the every single part,Dimension,functionality and many more things in the product.
+	
+	Maintenance       : This is the last stage in SDLC after releseaing the product in the market we mus maintain that 
+					Because after some time or after some use of product maybe some fault are founded by users so we need to maintain
+					this phse is imp for every cycle 
+
