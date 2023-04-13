@@ -1,0 +1,168 @@
+1) What is SRS ?
+
+->it is a kind of a document which is software requirement specification document that describes the requirements of software,
+	what the software will do and how it will be perform, that specifies all detailes about software
+	It includes a set of use case that describe all of the interaction that the user wil have with software.
+	it includes functional requirements and non functional requirements.
+	includes requirements like customer requrements and some other system neccesary requirements.
+
+
+2) What is agile methodology ?
+
+->it is a process model which is combination of iterative and incremental process model,
+	it is an iterative approach to project management and software development that helps to deliver an quality value to their customers faster.
+	it is most popular methodology in the market till now.
+
+
+3) What is oops ? and Write Basic Concepts of oops
+
+->oop is object oriented programing
+	it is an object base programming language 
+	characteristics of oop = data abstraction, data encapsulation, inheritance, polymorphisam etc...
+	it is the logical arrengement of code 
+	so basically it is a machine level language ex. c++,java.
+	in simple words it is representation of a type of objects.
+
+
+4) What is object ?
+
+->an object is considered a thing that can perform a set of related activities.
+	in term the object is an instance of a class ex. roles,incidents,interaction,specification
+object = data + method
+
+
+5) What is class
+
+->class is simple representation of object. it is the blueprint, that describes the details of an object.
+	class represents an abstaction of the object and abstraction the properties and behaviour of that object.
+	
+
+6) What is encapsulation ?
+
+->it is the technique of making the fields in a class private and providing access to the fields via public method
+	if we declared as a private it cannot be accessed by anyone outside the class there for it is also used to hide the data.
+	through this class can have total control over what is stored in its fields.
+	so simply it binding variables and methods togather into a single unit and preventing them from being accessed by other class
+
+
+7) What is inheritance ?
+
+->it means a relationship between one class to another class in machine language
+	it is a process of a forming a new class from an existing class.
+	Means we crate a new class from a base class so main(base)class is called as parent class and new class is also called as chiled class.
+	it helps to reduce the code size.
+	chiled class can get some characteristics of Parent class.
+
+
+
+8) What is polymorphism ?
+
+->it means many forms.
+	it allows diffrent objects to sent the same message in diffrent ways.
+	it is used in program to call same fuctions in diffrent way
+	there is 2 type of polymorephism in java that is compile time(overloading) and Runtime polymorphism(overriding).
+	through this same method name or operator symbol can be used in diffrent contents.
+
+
+9) Explain Phases of the waterfall model ?
+
+->This is called classic model because once we start work on this model we can not change our planning, After go to every stage of model we can not back to previous stage for any changes that we want to make.
+This is use when we want to complete projects in small period of time
+Ex. This model is used when we have small project and time is limited and customers want their order quickly with some fixed perticular requirements.
+
+Phases of waterfall Model is – Feasibility Study, Requirements Analysis and specifications, Design, Coding and Unit Testing, System Testing and Integration, Maintenance 
+
+•	Feasibility study is planning that what we can/want to build , simple study for that project.
+•	Requirement analysis is an analysis of Time ,our Team, Team capability, every estimation of the project with Documents (ex. SRS)
+•	Design is a design stage that we want to create design of our product after completion of analysis.
+•	Coding stage is an implementation stage that we are implement in our project for creating our product
+•	System Testing and Integration is stage of testing of whole system that we made.
+•	Maintenance stage is for maintain the problem of product and update it at the end.
+
+Advantages : it is a Base model so it is simple and easy to         apply
+This is Good for small projects
+
+
+Disadvantages : No feedback system
+No parallelism
+High risk at the end
+No flexibility
+
+
+
+10) Write phases of spiral model ?
+
+->spiral model phases are divided in 4 stages 
+	1st stage is for initial requirements or we can say planning
+	2nd stage is for risk analysis
+	3rd stage is for engineering or we can say development stage
+	4th stage is for customer evalution or assesment stage
+	complete and repeat 
+
+	in this model we can not move backword if we go next stage.
+	we can re-start all stage for some changes or updates.
+	this model is also called as bohems spiral model 
+
+
+
+
+
+11) Write agile manifesto principles ?
+
+->customer satisfaction
+  welcome change
+  deliver the working software
+  collaboration
+  motivation
+  face to face conversation
+  maintainb constant pace
+  monitoring
+  simplicity
+  self-organization terms
+  review the work regularly
+  measure the progress as per the working
+
+  
+
+
+
+
+12) Explain working methodology of agile model and also write pros and cons ?
+
+-> it is an iterative approach to project management and software developmentthat uses feedbace loops and test driven development to solve problems;
+	it also contains comon six stages of SDLC.
+	through this we can update any changes in project even if we launch the product in the market.
+	it means it is most reliable and most flexible model in SDLC process models
+	after last stage if we want to update in agile privious stages that is possible in this
+	
+	
+	ADVANTAGES: best communication of software team with the customer
+			focus on user and customer
+			rapid development
+			cost saving
+			fast delivery
+			small stage planning
+			flexible for developer
+
+
+	DISADVANTAGES:    lack of documentation
+				need to maintain after some years
+				senior and highly paid developers are required
+				more risk to maintain,sustain
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
