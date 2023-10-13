@@ -16,7 +16,8 @@ import java.util.Scanner;
 	      
 	      System.out.println("Enter the elements of the array one by one ");
 
-	      for(int i=0; i<size; i++){
+	      for(int i=0; i<size; i++)
+	      {
 	         myArray[i] = s.nextInt();
 	         sum = sum + myArray[i];
 	      }
