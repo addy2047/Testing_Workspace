@@ -1,0 +1,6 @@
+{
+  "appium:app": "E:\\MyappsTesting\\myfirstapp.apk",
+  "appium:deviceName": "OnePlus IN2021",
+  "platformName": "android",
+  "appium:automationName": "UIAutomator2"
+}
