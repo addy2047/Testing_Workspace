@@ -1,0 +1,21 @@
+
+Assesment 1
+
+Task 1 : Not all get api that gives proper data (last delete api parameters are wrong so its not showing proper data)
+
+Task 2 : YES POST api ask for authentication
+
+Task 3 : authentication and authorization of API is verified
+
+Task 4 : response time of all api's are in ms. so all api gives proper respse in minimum time
+
+Task 5 : product Categorys data are added with given parameter successfuly.
+
+Task 6 : Delete category data with given parameter value with exist and not exist category both are not working.
+
+
+
+Assesment 2
+
+Task 1 : wheather data with diffent parameter like  lat and lng wise is performed successfully.
+Task 2 : response time of weather data api is checked and it is quite minimum.

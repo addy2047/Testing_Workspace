@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "92d4f9f8-76cf-4ebb-8de6-8c105aa7c802",
+		"name": "API assesment 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32993835"
+	},
+	"item": [
+		{
+			"name": "T1 get data different Parameters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bulk.openweathermap.org/snapshot/daily_zip_uk.csv.gz?appid=AIzaSyBvp6i7S-_ceKIKImLjijm4MfCxBTWkdlM",
+					"protocol": "https",
+					"host": [
+						"bulk",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"snapshot",
+						"daily_zip_uk.csv.gz"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "AIzaSyBvp6i7S-_ceKIKImLjijm4MfCxBTWkdlM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "T2 Check response time",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=AIzaSyBvp6i7S-_ceKIKImLjijm4MfCxBTWkdlM",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "33.44"
+						},
+						{
+							"key": "lon",
+							"value": "-94.04"
+						},
+						{
+							"key": "exclude",
+							"value": "hourly,daily"
+						},
+						{
+							"key": "appid",
+							"value": "AIzaSyBvp6i7S-_ceKIKImLjijm4MfCxBTWkdlM"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
