@@ -1,0 +1,9 @@
+API assignment
+
+Q1 Registration is successfully performed 
+Q2 user login is not generating the token
+Q3 Admin login is performed and generatingg token
+Q4 add product category with the help of token (Method= POST) is performed
+Q5 to display all the category (Method=GET) is performed successfully 
+Q6 to delete the category (Method=GET) is faild Parameters are wrong.
+
