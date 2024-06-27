@@ -1,0 +1,379 @@
+{
+	"info": {
+		"_postman_id": "801369df-0d9f-4af7-bf70-db3d0379b9b6",
+		"name": "API Assignments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32993835"
+	},
+	"item": [
+		{
+			"name": "Q1 User Reg. OK",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://restapilive.onrender.com/userreg?fname=vraj&lname=patel&email=vraj@gmail.com&phno=978446525&pass=aditya&gender=Mail",
+					"protocol": "https",
+					"host": [
+						"restapilive",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"userreg"
+					],
+					"query": [
+						{
+							"key": "fname",
+							"value": "vraj"
+						},
+						{
+							"key": "lname",
+							"value": "patel"
+						},
+						{
+							"key": "email",
+							"value": "vraj@gmail.com"
+						},
+						{
+							"key": "phno",
+							"value": "978446525"
+						},
+						{
+							"key": "pass",
+							"value": "aditya"
+						},
+						{
+							"key": "gender",
+							"value": "Mail"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q2 User login Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "admin-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3MTk0NzM0NTl9.EciT0EgU7-gVyGEkN3HHaSZ5wH3WF9bLUHSF9h2zwmY",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"email\" : \"vraj@gmail.com\",\r\n    \"pass\" : \"aditya\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restapilive.onrender.com/alogin",
+					"protocol": "https",
+					"host": [
+						"restapilive",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"alogin"
+					],
+					"query": [
+						{
+							"key": "fname",
+							"value": "vraj",
+							"disabled": true
+						},
+						{
+							"key": "lname",
+							"value": "patel",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "vraj@gmail.com",
+							"disabled": true
+						},
+						{
+							"key": "pass",
+							"value": "aditya",
+							"disabled": true
+						},
+						{
+							"key": "gender",
+							"value": "Mail",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q3 admin login OK",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "admin-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3MTk0NzI5NTV9.uKzzLvZ6GELedDdFeBRy1Qxw6hMutKrZmC71_b5wxP8",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\" : \"admin@gmail.com\", \r\n\"password\" : \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restapilive.onrender.com/alogin",
+					"protocol": "https",
+					"host": [
+						"restapilive",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"alogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q4 add products ok",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "admin-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3MTk0NzExMjJ9.dXP3r77UUk4vidcMNDDGVzHcZiBnYMzIvQ8avcXDen4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"catname\" : \"Tool\"\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restapilive.onrender.com/addcategory",
+					"protocol": "https",
+					"host": [
+						"restapilive",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"addcategory"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add products with id ok",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "admin-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3MTk0NzExMjJ9.dXP3r77UUk4vidcMNDDGVzHcZiBnYMzIvQ8avcXDen4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"catname\" : \"Tool\"\r\n}\r\n\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://restapilive.onrender.com/addcategory",
+							"protocol": "https",
+							"host": [
+								"restapilive",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"addcategory"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 27 Jun 2024 07:28:30 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "89a3b876a9e4442b-BOM"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3b-lfgAuhnlnVFR2YvBbbremBbpfI8\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "rndr-id",
+							"value": "e23eae7d-fa99-40b7"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"catname\": \"Tool\",\n    \"_id\": \"667d149dd311214b01530786\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Q5 get ALLproduct cat OK",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "admin-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3MTk0NzM0NTl9.EciT0EgU7-gVyGEkN3HHaSZ5wH3WF9bLUHSF9h2zwmY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restapilive.onrender.com/category",
+					"protocol": "https",
+					"host": [
+						"restapilive",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Cat Faild",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "admin-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3MTk0NzM0NTl9.EciT0EgU7-gVyGEkN3HHaSZ5wH3WF9bLUHSF9h2zwmY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"did\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restapilive.onrender.com/deletecat",
+					"protocol": "https",
+					"host": [
+						"restapilive",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"deletecat"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
