@@ -1,0 +1,3 @@
+JUnit is a unit testing framework for the Java programming language, which you can use to execute tests. 
+JUnit is used primarily to test every unit or component of your application,
+such as classes and methods. It is helpful to write and run repeatable automated tests to ensure your code is running as intended.
