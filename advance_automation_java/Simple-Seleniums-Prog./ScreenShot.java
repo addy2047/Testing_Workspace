@@ -1,19 +1,20 @@
-package simple;
+package ss;
 
 import java.io.File;
-import java.sql.Connection;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class ScreenShot {
 
+
+public class ScreenShot
+{
 	public static void getScreenShot(WebDriver driver, String imgname) 
 	{
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File("E:\\TAimg\\"+imgname+".jpg");
+		File dest = new File("E:\\TAimg\\"+imgname+".png");
 		
 		try
 		{
@@ -32,4 +33,3 @@ public class ScreenShot {
 		getScreenShot(driver, "err");
 	}
 }
-

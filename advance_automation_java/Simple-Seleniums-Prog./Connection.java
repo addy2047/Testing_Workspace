@@ -8,11 +8,16 @@ package ss;
 		public static WebDriver getconnection(String url)
 		{
 			
-			System.setProperty("webdriver.chrome.driver", "E:\\\\chromedriver-win64\\\\chromedriver-win64\\\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.get(url);
 			driver.manage().window().maximize();
 			return driver;
+			
+		}
+
+		public static void getScreenShot(WebDriver driver, String string) {
+			// TODO Auto-generated method stub
 			
 		}
 	}
