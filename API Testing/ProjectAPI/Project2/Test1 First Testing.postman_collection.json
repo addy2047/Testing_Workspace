@@ -1,0 +1,278 @@
+{
+	"info": {
+		"_postman_id": "aaeaffc1-20c5-4f1e-8ad5-c7fec3cf5dbb",
+		"name": "Test1 First Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32993835"
+	},
+	"item": [
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/login.php?mobile=9313877849&password=aditya",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/register.php?fname=adi&lname=asd&email=aditya@gmail.com&mobile=9313877890&password=aditya47",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"register.php"
+					],
+					"query": [
+						{
+							"key": "fname",
+							"value": "adi"
+						},
+						{
+							"key": "lname",
+							"value": "asd"
+						},
+						{
+							"key": "email",
+							"value": "aditya@gmail.com"
+						},
+						{
+							"key": "mobile",
+							"value": "9313877890"
+						},
+						{
+							"key": "password",
+							"value": "aditya47"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/login.php?mobile=9313877849&password=aditya",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://chaitalijivani.000webhostapp.com/API/register.php?fname=adi&lname=asd&email=aditya@gmail.com&mobile=9313877890&password=aditya47",
+					"protocol": "https",
+					"host": [
+						"chaitalijivani",
+						"000webhostapp",
+						"com"
+					],
+					"path": [
+						"API",
+						"register.php"
+					],
+					"query": [
+						{
+							"key": "fname",
+							"value": "adi"
+						},
+						{
+							"key": "lname",
+							"value": "asd"
+						},
+						{
+							"key": "email",
+							"value": "aditya@gmail.com"
+						},
+						{
+							"key": "mobile",
+							"value": "9313877890"
+						},
+						{
+							"key": "password",
+							"value": "aditya47"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/login.php?mobile=9313877890&password=aditya47",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://chaitalijivani.000webhostapp.com/API/login.php?mobile=9313877890&password=aditya47",
+					"protocol": "https",
+					"host": [
+						"chaitalijivani",
+						"000webhostapp",
+						"com"
+					],
+					"path": [
+						"API",
+						"login.php"
+					],
+					"query": [
+						{
+							"key": "mobile",
+							"value": "9313877890"
+						},
+						{
+							"key": "password",
+							"value": "aditya47"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/studentdetailinsert.php?fname=aditya&lname=patel&course=automation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://chaitalijivani.000webhostapp.com/API/studentdetailinsert.php?fname=aditya&lname=patel&course=automation",
+					"protocol": "https",
+					"host": [
+						"chaitalijivani",
+						"000webhostapp",
+						"com"
+					],
+					"path": [
+						"API",
+						"studentdetailinsert.php"
+					],
+					"query": [
+						{
+							"key": "fname",
+							"value": "aditya"
+						},
+						{
+							"key": "lname",
+							"value": "patel"
+						},
+						{
+							"key": "course",
+							"value": "automation"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/studentdetailview.php?=",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}/studentdetailview.php?=",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"studentdetailview.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/studentupdate.php?id=4&fname=Aditya&lname=birla&course=Testing",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://chaitalijivani.000webhostapp.com/API/studentupdate.php?id=4&fname=Aditya&lname=birla&course=Testing",
+					"protocol": "https",
+					"host": [
+						"chaitalijivani",
+						"000webhostapp",
+						"com"
+					],
+					"path": [
+						"API",
+						"studentupdate.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						},
+						{
+							"key": "fname",
+							"value": "Aditya"
+						},
+						{
+							"key": "lname",
+							"value": "birla"
+						},
+						{
+							"key": "course",
+							"value": "Testing"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/studentdelete.php?id=4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://chaitalijivani.000webhostapp.com/API/studentdelete.php?id=4",
+					"protocol": "https",
+					"host": [
+						"chaitalijivani",
+						"000webhostapp",
+						"com"
+					],
+					"path": [
+						"API",
+						"studentdelete.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chaitalijivani.000webhostapp.com/API/view.php?id=2&id=4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://chaitalijivani.000webhostapp.com/API/view.php?id=2&id=4",
+					"protocol": "https",
+					"host": [
+						"chaitalijivani",
+						"000webhostapp",
+						"com"
+					],
+					"path": [
+						"API",
+						"view.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
