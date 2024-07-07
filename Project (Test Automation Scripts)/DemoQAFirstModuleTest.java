@@ -193,7 +193,8 @@ public class DemoQAFirstModuleTest {
         scrollToElement(driver, editAge);
         editAge.clear();
         editAge.sendKeys("25");
-        WebElement submitEditButton = driver.findElement(By.id("submit"));
+
+	WebElement submitEditButton = driver.findElement(By.id("submit"));
         scrollToElement(driver, submitEditButton);
         clickElement(driver, submitEditButton);
         Thread.sleep(1500);
@@ -319,11 +320,11 @@ private static void testUploadDownload(WebDriver driver) throws InterruptedExcep
 
     WebElement uploadButton = driver.findElement(By.id("uploadFile"));
     scrollToElement(driver, uploadButton);
-    uploadButton.sendKeys("C:\\Users\\AD\\Downloads\\sampleFile.jpeg"); // Replace with your file path
+    uploadButton.sendKeys("C:\\Users\\AD\\Downloads\\sampleFile.jpeg"); 
     Thread.sleep(1500);
-    uploadButton.sendKeys("C:\\Users\\AD\\Downloads\\Projects.pdf"); // Replace with your file path
+    uploadButton.sendKeys("C:\\Users\\AD\\Downloads\\Projects.pdf"); 
     Thread.sleep(1500);
-    uploadButton.sendKeys("C:\\Users\\AD\\Downloads\\Module 5.docx"); // Replace with your file path
+    uploadButton.sendKeys("C:\\Users\\AD\\Downloads\\Module 5.docx"); 
     Thread.sleep(1500);
 
     
