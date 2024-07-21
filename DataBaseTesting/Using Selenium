@@ -1,0 +1,17 @@
+Selenium Webdriver is limited to Testing your applications using Browser. To use Selenium Webdriver for Database Verification you need to use the JDBC (“Java Database Connectivity”).
+
+JDBC (Java Database Connectivity) is a SQL level API that allows you to execute SQL statements. It is responsible for the connectivity between the Java Programming language and a wide range of databases. The JDBC API provides the following classes and interfaces
+
+Driver Manager
+Driver
+Connection
+Statement
+ResultSet
+SQLException
+
+Database Connection in Selenium
+How to Connect Database in Selenium
+Step 1) Make a connection to the Database
+Step 2) Send Queries to the Database
+Step 3) Process the results
+
