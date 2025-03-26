@@ -1,0 +1,11 @@
+https://jam.dev/
+
+Jam is a software testing tool designed to streamline bug reporting and communication between developers and QA teams.
+It automates the process of capturing crucial information such as device details, browser information, console logs, network logs, and backend tracing. 
+The tool also offers features like automatic reproduction steps and visual bug recordings, making it easy to report bugs without technical knowledge.
+Key features include:
+Instant replay: Capture screen recordings of bugs.
+Automatic logs: Collect browser console and network logs automatically.
+Easy sharing: Share bug reports with annotated videos, logs, and repro steps.
+Integrations: Works with tools like GitHub, Jira, Slack, and Sentry.
+Jam helps teams save time by automating manual tasks and simplifying bug reproduction, enhancing productivity for both QA and development teams.
