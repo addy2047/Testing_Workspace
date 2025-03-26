@@ -1,0 +1,57 @@
+https://www.zaproxy.org/
+🛡️ What is OWASP ZAP?
+OWASP ZAP (Zed Attack Proxy) is an open-source security testing tool developed by the OWASP Foundation. 
+It helps find vulnerabilities in web applications. It’s one of the most popular tools for Dynamic Application Security Testing (DAST).
+
+👤 Who Uses OWASP ZAP?
+Security professionals
+Penetration testers
+Developers
+Software testers / QA engineers (especially during test phases of SDLC)
+
+🧪 How Can a Software Tester Use OWASP ZAP?
+1. As a Proxy to Monitor Traffic
+Launch ZAP and set your browser to use it as a proxy.
+It captures all HTTP/HTTPS requests and responses between your browser and the app.
+This helps QA see if any sensitive data (like passwords) are exposed in plaintext.
+
+2. Spidering the Application
+ZAP has a spider tool that crawls through your web app and builds a structure of URLs and forms.
+Helps identify all attack surfaces like forms, cookies, headers, etc.
+
+3. Automated Scanning
+ZAP has an Active Scanner that can run automated scans against all identified endpoints.
+It can find:
+SQL Injection
+Cross-Site Scripting (XSS)
+Broken authentication
+Insecure cookies
+Missing security headers
+
+4. Manual Exploration
+While testing a feature manually, ZAP records your interactions.
+Later, you can run targeted scans against the pages you interacted with.
+
+5. Fuzzing Inputs
+You can use fuzzing to test how inputs react to malicious payloads.
+Great for testing fields for input validation issues.
+
+6. Reporting
+ZAP provides HTML, XML, and JSON reports of its findings.
+Testers can share these with developers or integrate into bug tracking tools.
+
+🔧 Features Testers Will Find Useful
+Feature	Use for QA
+🔍 Spider	Discover hidden pages and links
+🔒 Passive Scanner	Check for security issues without affecting the app
+🧨 Active Scanner	Actively try to exploit known vulnerabilities
+⚙️ Fuzzer	Inject random/malicious input into forms
+📜 Alerts Tab	View and prioritize discovered vulnerabilities
+📄 Reports	Export findings for documentation or JIRA tickets
+
+🎯 Use Cases for Testers
+Pre-release security check
+Validating session handling (e.g., session expiry)
+Checking for missing HTTPS
+Identifying vulnerable JavaScript libraries
+Checking error messages or stack traces exposed in response
